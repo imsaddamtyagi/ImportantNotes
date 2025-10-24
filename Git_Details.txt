@@ -1,0 +1,47 @@
+Create a GitHub Repository.
+Right-click on Project -> Team -> Share Project
+Use or create repository in parent folder of project
+Create Repository-> Finish
+ Project -> Team -> Commit
+ Drag a file/s from “Unstaged Changes” to “Staged Changes“ -> Commit.
+
+Add GitHub Repo URL As Remote -> Team -> Remote -> Push
+Provide Git Hub URL.
+
+Select the Source ref as the master branch i.e. default branch.
+Destination ref will be automatically populated.
+After that click on “Add Spec” button. -> Finish.
+Generate Personal Access Token Of GitHub
+
+GitHub->Click on the Profile icon at the right top corner and click on “Settings“.
+Developer settings -> Personal access tokens
+Tokens(classic)->Generate new token.
+Now you need to provide the value of “Note” and select Scope.
+
+--------------------------------------------------------------------------------------------
+Initialize:
+Eclipse Project -> Team -> Share Project -> Git -> Next
+Commit:
+Eclipse Project -> Team -> Commit.
+
+Create a Github Repository on GitHub.
+Add Github Repository as Remote
+Eclipse Project -> Team -> Remote ->Push.
+Enter URI From GitHub -> Next ->Finish
+----------------------------------------------------------------------------------------------------
+git config --global user.email "imsaddamtyagi@gmail.com"
+git config --global user.name "imsaddamtyagi"
+git init (Initialized empty Git repository in C:/Users/Dell/Playwright/Playwright_DataDriven/.git/)
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/imsaddamtyagi/Playwright_DataDriven_Framework.git
+git push -u origin master
+
+----------------------------------------------------------------------------------------------
+Other important commands: If you made some chanegs and want to push that to github
+git status (which files have been modified, added, or deleted.)
+git add .  (All)
+git commit -m "Describe your changes"
+git push (updates your remote repository with your local changes.)
+---------------------------------------------------------------------------------------
+
