@@ -1,0 +1,18 @@
+npm install --location=global appium
+appium --version
+npm install -g appium-doctor
+appium-doctor
+appium-doctor --version
+appium-doctor --android
+
+
+
+appium --allow-cors
+
+
+adb devices
+adb usb
+adb tcpip 5555
+adb connect 192.0.0.2
+
+-------------------------------------------------------------------------------

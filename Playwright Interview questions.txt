@@ -1,0 +1,10 @@
+- Locators in Playwright
+- Playwright Fixtures – What they are and how to use them
+- Running Parallel Tests
+- Retrying Tests – Strategies and configuration
+- Sharding in Playwright – Distributing tests across machines
+- Parameterizing Tests – Dynamic test data injection
+- Annotations in Playwright – Custom markers and metadata
+- CI/CD Integration – Running Playwright tests in pipelines
+- Cloud Execution – BrowserStack, LambdaTest, etc.
+- Testing HTTP Methods – GET, POST, PUT, DELETE, etc.

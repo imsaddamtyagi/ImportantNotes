@@ -1,0 +1,59 @@
+HTTP methods: POST, GET, DELETE, PUT, and PATCH.
+Collection: Group of API request saved in postman.
+
+Enter new Get Request-> Save it-> Create new collection-> Save it.
+
+Get :  Get data from an API.
+POST:  Send new data to an API.
+PATCH: Update the existing data.
+PUT:   Update the existing data.
+
+Status Code: 
+200: Successful request.
+201: Successful request-> Data was created.
+204: For empty response.
+400: Bad Request. 
+401: Unauthorized Access.
+
+-------------------------------------------------------------------------------------
+Request Parameters in Postman:
+After end of URL => ?id=1&type=new
+Eg : www.google.com/search?q=javatpoint
+or 
+www.google.com/search 
+-------------------------------------------------------------------------------------
+POST Request in Postman:
+When additional information needs to be sent to the server inside the body of the request.
+(updating, removing or inserting) => Login Request that contains usernamr/passwrd.
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+What is REST Assured?
+Java-based library
+--------------------------------------------------------------------------------------------------------------------------------------
+Http Post Request:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

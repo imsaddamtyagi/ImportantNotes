@@ -1,0 +1,74 @@
+Java Programming
+Write Java code to reverse a string while preserving the whitespace.
+Explain dynamic binding and static binding.
+What is method overloading, and what is method overriding? 
+What is the difference between Comparable and Comparator? 
+Write Java code to print all the permutations of a given string. 
+Explain the Functional Interface in Java. Basics of multithreading in Java. 
+Write code for database connection in Java. 
+Write code and explain the Singleton design pattern.
+Write code to fetch the username and password from a properties file.
+Difference between StringBuffer and StringBuilder. 
+Program to remove duplicate elements from an ArrayList. 
+Where have you used Inheritance in your framework?
+Difference between finally and finalize in Java.
+Find the Kth largest and Kth smallest elements in an array. 
+Sort an array of 0s, 1s, and 2s in O(n) time complexity.
+What is LinkedHashMap? Explain its use. 
+Explain the palindromic substrings LeetCode question.
+
+
+
+Selenium Automation
+In your framework, if you have 100 pages, do you create 100 Page Objects?
+What is an “Element click intercepted” exception, and how do you fix it? 
+How do you take screenshots for failed test cases only in TestNG? 
+How to launch Google on a browser using the TestNG framework? 
+How to handle multiple windows in Selenium? How to handle dynamic dropdowns in Selenium?
+How to handle shadow DOM elements in Selenium? 
+Write Selenium code to automate a calendar WebElement. How would you fetch the text from a text box in Selenium?
+How do you enter text in an alert using Selenium?
+Difference between findElement and findElements. What is the difference between implicit wait and explicit wait? 
+What are relative locators in Selenium? How to run Selenium scripts on an already opened browser? 
+If an XPath selects two elements on a webpage, does findElement throw an exception? 
+Explain smoke testing and sanity testing. How to handle multiple windows in Selenium? 
+How to handle dynamic dropdowns in Selenium? 
+Print all values of customer salaries from the given graph using Selenium. 
+How would you handle authentication popup using Selenium?
+What is a Stale Element exception?
+In Selenium, how would you open a new tab?
+Difference between close() and quit() methods in Selenium?
+In what cases would you require fluent waits? 
+Write XPaths for disappearing elements in Selenium. 
+
+
+
+SQL and Database
+Given an SQL table, find the second-largest salary of an employee.
+What is the use of GroupBy in SQL? What is the get fetch command?
+Explain the concept of joins and list the different types of joins available. 
+
+Agile
+Explain the differences between Agile and Waterfall models.
+Tell me about Agile ceremonies. 
+How to perform parallel testing using TestNG? 
+
+
+Git and Version Control
+What are the uses of fetch, pull, and clone commands in Git? What is the get fetch command?
+
+
+Jenkins
+In Jenkins, what is the purpose of a CRON expression?
+How to set up your framework with Jenkins? 
+
+
+Jmeter
+What are the threads in JMeter? 
+
+
+Postman
+In Postman, how do you delete a variable after test execution is finished?
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

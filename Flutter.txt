@@ -1,0 +1,8 @@
+Android Studio:
+
+Flutter + Dart
+
+flutter --version
+flutter doctor
+
+Add flutter path in IDE and envt variable.

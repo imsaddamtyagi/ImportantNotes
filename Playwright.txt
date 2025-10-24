@@ -1,0 +1,92 @@
+Node.js: JavaScript runtime environment.
+*) runs on the V8 JavaScript engine, 
+*) executes JavaScript code outside a web browser,
+*) Allows you to run JavaScript on the server.(It is JavaScript's runtime environment).
+
+Node.js: Open source run time envt to run JavaScript code.
+Node.js is only needed when you want to run JavaScript outside of the browser,like for backend development or server-side tasks.
+
+Visual Studio Code:
+*) IDE
+---------------------------------------------------------------------------------------------------------
+NPM vs NPX (Node packet manager vs Node packet executor)
+Use npm to install and manage packages for your projects.
+Use npx to execute a package directly without installing it globally.
+
+******************************NODE*************************************************
+node -v  Check Node Version [v22.21.0]   On 24 Oct 25
+npm  -v  Check NPM Version  [v11.6.2]    On 24 Oct 25    (Using it we can install various libraries of node.js).
+
+******************************NVM***************************************************
+nvm (Node Version Manager) : To update Node.js using CLI.
+nvm list available
+nvm install 22.21.0  [Use latest LTS]
+nvm use 22.21.0
+nvm list [ To show all installed version in you system]
+nvm uninstall 22.12.0  [Remove older node.js]
+nvm version    [1.2.2 To check NVM Version]
+****************************NPM*****************************************************
+npm install -g npm@latest  [ To install latest NPM Only, not node.js].
+npm cache clean -f
+
+Set Path
+NODE HOME (C:\Program Files\nodejs)
+Path: C:\Program Files\nodejs\
+*************************************************************************************************************************************************************
+Playwright is a Node.js library, 
+Playwright: Developed by Microsoft.
+Latest Playwright to be installed:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+npm init -y
+npm init playwright@latest (Ideal for starting a completely new Playwright project.)
+No need to run anything more. It is enough.
+
+Below commands are for later:
+npm install @playwright/test            - > This installs the version of @playwright/test that is Listed in your package.json
+npm install @playwright/test@latest     - > This installs the absolute latest version.
+
+To check playwright version in your framwork folder:   npm list @playwright/test    [Version 1.56.1]
+
+npx playwright --version   [Version 1.56.1] [24-10-25]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+npm install exceljs
+
+npx playwright codegen : Generate code automatically
+***************************************************************************************
+CSS:
+The # symbol is used with   id.  (#id = #username).
+The . symbol is used with class. (.class =.login-input).
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+*****************************************************Playwright MCP***********************************************************************
+Playwright MCP is a Model Context Protocol (MCP) server that enables browser automation using Playwright. 
+Install MCP:
+Run: 
+npm install -g @playwright/mcp
+Verify it: 
+npx @playwright/mcp --version
+Version 0.0.43  (24-Oct-25)
+
+[In vs code terminal]
+code --add-mcp '{\"name\":\"playwright\",\"command\":\"npx\",\"args\":[\"@playwright/mcp@latest\"]}'   
+
+Success Message : Added MCP servers: playwright
+
+Now, Inside VS Code->
+Press: Ctrl+Shift+P -> Type-> mcp
+MCP List Server -> Start Server
+
+
+code --add-mcp '{"name":"playwright","command":"npx","args":["@playwright/mcp@latest"]}'   (Without escape character for clarity)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+******************************************************Agents***************************************************************************
+npx playwright init-agents --loop=vscode
+
+[
+Writing file: .github/chatmodes/ generator.chatmode.md
+Writing file: .github/chatmodes/ healer.chatmode.md
+Writing file: .github/chatmodes/  planner.chatmode.md
+Writing file: .vscode/mcp.json
+Writing file: tests\seed.spec.ts
+]

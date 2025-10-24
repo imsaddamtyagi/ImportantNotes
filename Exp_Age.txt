@@ -1,0 +1,28 @@
+- Wipro: 29/06/2015 - 15/11/2019 -> 4 years, 4 months, 18 days
+- Gap period: 16/11/2019 - 15/09/2020 -> 10 months
+- Uneecops: 16/09/2020 - 10/02/2022 -> 1 year, 4 months, 26 days
+- Nucleus Software Exports: 11/02/2022 - 20/May/2025 -> 3 years, ? months, ? days
+
+- Total experience: 9 years,days
+
+
+As on 06/May/2025
+
+
+Age as of May 6, 2025: 34 years and 32 days.
+
+
+
+http-server -p 8080  
+http://localhost:8080/index.html
+
+
+---------------------------------------
+After updating index file.
+cd C:\Users\Dell\Downloads\AppMine\Apk  -> npx cap sync
+It Copies the contents of the www folder (including index.html) to android/app/src/main/assets/public.
+
+Navigate to the android folder (C:\Users\Dell\Downloads\AppMine\Apk\android>)  -> gradlew assembleDebug  
+
+The APK will be at app/build/outputs/apk/debug/app-debug.apk.
+

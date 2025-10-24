@@ -1,0 +1,14 @@
+* python - - version 
+* idle: Python Interactive interpreter prompt
+
+Python File extention: .py
+
+* Two Ways to run Python programs: 
+1) Using Interactive interpreter prompt
+2) Using a script file
+
+Pycharm IDE
+-------------------------------------------------------------------------------------------------------
+Python Syntex:
+Indentation:
+
